@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>netVis</title>
+
+    <link rel="shortcut icon" href="../public/img/icon.ico">
+
+    <script type="text/javascript" src="../public/lib/jquery/jquery-3.1.1.min.js"></script>
+
+    <script type="text/javascript" src="../public/lib/d3/d3.min.js"></script>
+
+    <link href="../public/css/lib/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+<div id="all_view">
+
+    <div id="control"></div>
+
+    <div id="main">
+        <div class="btn-group" style=" position:absolute;z-index: 999;top:2%;right:2%">
+            <button type="button" id='refresh' class="btn btn-default" aria-label="Left Align"><span
+                    class="glyphicon glyphicon-refresh" aria-hidden="true"></span></button>
+            <button type="button" class="btn btn-default" aria-label="Center Align"><span
+                    class="glyphicon glyphicon-resize-full" aria-hidden="true"></span></button>
+            <button type="button" class="btn btn-default" aria-label="Right Align"><span
+                    class="glyphicon glyphicon-move" aria-hidden="true"></span></button>
+
+        </div>
+
+        <div class="btn-group" style="float:left;z-index:999;position:absolute;bottom:2%;left:2%">
+            <button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-play"
+                                                                                        aria-hidden="true"></span>
+            </button>
+            <button type="button" class="btn btn-default" aria-label="Center Align"><span
+                    class="glyphicon glyphicon-pause" aria-hidden="true"></span></button>
+            <button type="button" class="btn btn-default" aria-label="Right Align"><span
+                    class="glyphicon glyphicon-stop" aria-hidden="true"></span></button>
+
+        </div>
+    </div>
+
+    <div id="information"></div>
+
+    <div id="time_line"></div>
+
+    <div id="area_line"></div>
+
+</div>
+
+<link rel="stylesheet" href="../public/css/all_view.css">
+
+<link rel="stylesheet" href="../public/css/control.css">
+
+<link rel="stylesheet" href="../public/css/main.css">
+
+<link rel="stylesheet" href="../public/css/information.css">
+
+<link rel="stylesheet" href="../public/css/time_line.css">
+
+<link rel="stylesheet" href="../public/css/area_line.css">
+
+<script type="text/javascript" src="../public/js/layout.js"></script>
+
+<script type="text/javascript" src="../public/js/main.js"></script>
+
+</body>
+</html>
