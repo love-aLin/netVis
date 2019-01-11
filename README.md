@@ -1,2 +1,2 @@
 # netVis
-![netVis图片](introduction/netVis.jpg)
+![netVis图片](introduction/netVis.)
